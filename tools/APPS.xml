@@ -1,0 +1,30 @@
+<toolSet name="APPS">
+  <tool name="printing" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing\target\start.bat" />
+      <option name="PARAMETERS" value=" -companyID &quot;1&quot; -timetableVersion &quot;10721&quot; -whitlowVersion &quot;1&quot; -dutyVersion &quot;10820&quot; -development false" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/printing/target" />
+    </exec>
+  </tool>
+  <tool name="printing.dispatch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.dispatch\target\start.bat" />
+      <option name="PARAMETERS" value="-companyID &quot;1&quot; -timetableVersion &quot;10360&quot; -whitlowVersion &quot;1&quot; -dutyVersion &quot;10101&quot; -development false" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/printing.dispatch/target" />
+    </exec>
+  </tool>
+  <tool name="printing.duty" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.duty\target\start.bat" />
+      <option name="PARAMETERS" value="-agentpath:C:\Users\rek\.IntelliJIdea2019.2\config\plugins\jr-ide-idea\lib\jrebel6\lib\jrebel64.dll -Djrebel.basedir=$ProjectFileDir$/mb2java -companyID &quot;1&quot; -timetableVersion &quot;10721&quot; -whitlowVersion &quot;1&quot; -dutyVersion &quot;10820&quot; -development false" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/printing.duty/target" />
+    </exec>
+  </tool>
+  <tool name="config" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\core.config\target\start.bat" />
+      <option name="PARAMETERS" value="-agentpath:C:\Users\rek\.IntelliJIdea2019.2\config\plugins\jr-ide-idea\lib\jrebel6\lib\jrebel64.dll -Djrebel.basedir=$ProjectFileDir$/mb2java" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/core.config/target" />
+    </exec>
+  </tool>
+</toolSet>
