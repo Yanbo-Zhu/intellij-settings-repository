@@ -2,14 +2,14 @@
   <tool name="CI Check" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\CI Check.bat" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="$ProjectFileDir$" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
   <tool name="CI Check with tests" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\CI Check with tests.bat" />
-      <option name="PARAMETERS" />
+      <option name="PARAMETERS" value="$ProjectFileDir$" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
