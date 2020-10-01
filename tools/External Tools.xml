@@ -134,9 +134,9 @@
   </tool>
   <tool name="start local shell" description="Starts the IVUShell, connected to a local JBoss" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
     <exec>
-      <option name="COMMAND" value="$ProjectFileDir$\mb2java\tools\tools.localShell\start.bat" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.localShell" />
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\tools\tools.localShell\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\tools\tools.localShell" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
     </exec>
   </tool>
 </toolSet>
