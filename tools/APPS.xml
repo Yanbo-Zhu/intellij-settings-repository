@@ -1,23 +1,23 @@
 <toolSet name="APPS">
-  <tool name="printing" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="printing" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
     <exec>
-      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing\target\start.bat" />
-      <option name="PARAMETERS" value="-development false; -appUsername &quot;ivu&quot; -appPassword &quot;ivu$admin&quot; -companyID &quot;1&quot; -timetableVersion &quot;10721&quot; -whitlowVersion &quot;1&quot; -dutyVersion &quot;10820&quot; -development false" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/printing/target" />
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing\target\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing\target" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
     </exec>
   </tool>
-  <tool name="printing.dispatch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="printing.dispatch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.dispatch\target\start.bat" />
-      <option name="PARAMETERS" value="-development false; -appUsername &quot;ivu&quot; -appPassword &quot;ivu$admin&quot; -companyID &quot;1&quot; -timetableVersion &quot;10360&quot; -whitlowVersion &quot;1&quot; -dutyVersion &quot;10101&quot; -development false" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/printing.dispatch/target" />
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.dispatch\target\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.dispatch\target" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
     </exec>
   </tool>
   <tool name="printing.duty" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.duty\target\start.bat" />
-      <option name="PARAMETERS" value="-development false; -appUsername &quot;ivu&quot; -appPassword &quot;ivu$admin&quot; -companyID &quot;1&quot; -timetableVersion &quot;10721&quot; -whitlowVersion &quot;1&quot; -dutyVersion &quot;10820&quot; -development false" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/printing.duty/target" />
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.duty\target\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.duty\target" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
     </exec>
   </tool>
   <tool name="config" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
