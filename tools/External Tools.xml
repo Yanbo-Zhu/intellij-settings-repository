@@ -146,4 +146,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
     </exec>
   </tool>
+  <tool name="generate interface profiles" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\generate-interface-profiles.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
 </toolSet>
