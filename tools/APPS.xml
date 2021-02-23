@@ -27,6 +27,13 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/intf/target" />
     </exec>
   </tool>
+  <tool name="statistics" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\statistics\target\start.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/desktop/apps/rcp/statistics/target" />
+    </exec>
+  </tool>
   <tool name="config" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\core.config\target\start.bat" />
