@@ -23,7 +23,7 @@
   <tool name="printing.trafficrestriction" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="mvn.bat" />
-      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.duty\target\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.trafficrestriction\target" />
+      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.trafficrestriction\target\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.trafficrestriction\target" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
     </exec>
   </tool><tool name="intf" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
