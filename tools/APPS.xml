@@ -1,4 +1,11 @@
 <toolSet name="APPS">
+  <tool name="tnw.hms" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\hms\target\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\hms\target" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
+    </exec>
+  </tool>
   <tool name="printing" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
     <exec>
       <option name="COMMAND" value="mvn.bat" />
@@ -26,7 +33,8 @@
       <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.trafficrestriction\target\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\build\desktop\apps\rcp\printing.trafficrestriction\target" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
     </exec>
-  </tool><tool name="intf" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  </tool>
+  <tool name="intf" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\desktop\apps\rcp\intf\target\start.bat" />
       <option name="PARAMETERS" />
