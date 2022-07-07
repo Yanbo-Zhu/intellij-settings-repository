@@ -1,0 +1,23 @@
+<toolSet name="JBOSS (ab 23.1)">
+    <tool name="start" description="Starten den IVU.plan JBOSS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\server\apps\ears\ivu.plan\ivu.plan-start.bat" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/server/apps/ears/ivu.plan" />
+        </exec>
+    </tool>
+    <tool name="stop" description="Stopt den IVU.plan JBOSS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\server\apps\ears\ivu.plan\ivu.plan-stop.bat" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/server/apps/ears/ivu.plan" />
+        </exec>
+    </tool>
+    <tool name="update" description="Aktualisiert den IVU.plan JBOSS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+        <exec>
+            <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\server\runtimes\jboss\jboss-update.bat" />
+            <option name="PARAMETERS" />
+            <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/build/server/runtimes/jboss" />
+        </exec>
+    </tool>
+</toolSet>
