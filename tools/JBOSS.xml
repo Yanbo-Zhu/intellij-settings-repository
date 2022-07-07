@@ -1,4 +1,4 @@
-<toolSet name="JBOSS (ab 23.1)">
+<toolSet name="JBOSS (ab R23.1)">
     <tool name="start" description="Starten den IVU.plan JBOSS" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
         <exec>
             <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\server\apps\ears\ivu.plan\ivu.plan-start.bat" />
