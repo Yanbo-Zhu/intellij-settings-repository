@@ -20,6 +20,20 @@
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
+  <tool name="generate-resources" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\generate-resources.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="generate-resources (parent)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\generate-resources.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$FileParentDir$" />
+    </exec>
+  </tool>
   <tool name="install" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\install.bat" />
