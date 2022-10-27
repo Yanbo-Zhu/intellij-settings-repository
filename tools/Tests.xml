@@ -1,0 +1,58 @@
+<toolSet name="Tests">
+  <tool name="test method (marked with cursor)" description="Runs all tests in the selected class" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="clean test -DskipTests=false -Dtest=$FileNameWithoutExtension$#$SelectedText$ -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=true -Dperiphery.testframework.recreateReferenceFiles=false -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="test class" description="Runs all tests in the selected class" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="clean test -DskipTests=false -Dtest=$FileNameWithoutExtension$ -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=true -Dperiphery.testframework.recreateReferenceFiles=false -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="test module" description="Runs all tests in the selected class" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="clean test -DskipTests=false -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=true -Dperiphery.testframework.recreateReferenceFiles=false -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="debug test method (marked with cursor)" description="Runs all tests in the selected class" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="-Dmaven.surefire.debug clean test -DskipTests=false -Dtest=$FileNameWithoutExtension$#$SelectedText$ -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=true -Dperiphery.testframework.recreateReferenceFiles=false -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="debug test class" description="Runs all tests in the selected class" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="-Dmaven.surefire.debug test clean test -DskipTests=false -Dtest=$FileNameWithoutExtension$ -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=true -Dperiphery.testframework.recreateReferenceFiles=false -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="regenerate test files for method (marked with cursor)" description="Runs all tests in the module and regenerates their output" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="clean test -DskipTests=false -Dtest=$FileNameWithoutExtension$#$SelectedText$ -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=false -Dperiphery.testframework.recreateReferenceFiles=true -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="regenerate test files for class" description="Runs all tests in the class and regenerates their output." showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="clean test -DskipTests=false -Dtest=$FileNameWithoutExtension$ -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=false -Dperiphery.testframework.recreateReferenceFiles=true -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="regenerate test files for module" description="Runs all tests in the module and regenerates their output" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="clean test -DskipTests=false -DprivateSchema -Dperiphery.testframework.displayResultFilesOnDifference=false -Dperiphery.testframework.recreateReferenceFiles=true -DprojectDir=D:/build/tests" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+</toolSet>
