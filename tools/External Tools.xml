@@ -1,0 +1,170 @@
+<toolSet name="External Tools">
+  <tool name="CI Check" showInMainMenu="true" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\CI Check.bat" />
+      <option name="PARAMETERS" value="$ProjectFileDir$/mb2java" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="CI Check with tests" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\CI Check with tests.bat" />
+      <option name="PARAMETERS" value="$ProjectFileDir$/mb2java" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="clean" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\clean.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="generate-resources" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\generate-resources.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="generate-resources (parent)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\generate-resources.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$FileParentDir$" />
+    </exec>
+  </tool>
+  <tool name="install" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\install.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="clean install" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\clean install.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="clean install (parent)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\clean install.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$FileParentDir$" />
+    </exec>
+  </tool>
+  <tool name="clean install rcp" description="Baut den RCP-Client im aktuell ausgewählten Verzeichnis" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\clean install rcp.bat" />
+      <option name="PARAMETERS" value="$FileDirName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java" />
+    </exec>
+  </tool>
+  <tool name="clean install rcp -am" description="Baut den RCP-Client im aktuellen Verzeichnis mit allen Abhängigkeiten" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\clean install rcp -am.bat" />
+      <option name="PARAMETERS" value="$FileDirName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java" />
+    </exec>
+  </tool>
+  <tool name="dependency analyze" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\dependency analyze.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="dependency tree" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\dependency tree.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="enforcer" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\enforcer.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="pmd" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\pmd.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="pmd (in Progress)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\pmd (in Progress).bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="sources" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\sources.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="spotbugs" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\spotbugs.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="test !cpp" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\test !cpp.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="test all" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\test all.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="test cpp" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\test cpp.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="reset local mvn repo to Nexus" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="dependency:purge-local-repository -DsnapshotsOnly -DreResolve=false" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+  <tool name="create settings" description="The Script generates maven and client settings for a given db connection e.g. city@qs20a" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\tools\tools.createSettings\start.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
+    </exec>
+  </tool>
+  <tool name="start local shell" description="Starts the IVUShell, connected to a local JBoss" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="mvn.bat" />
+      <option name="PARAMETERS" value="exec:exec -Dexec.executable=$ProjectFileDir$\mb2java\tools\tools.localShell\start.bat -Dexec.workingDirectory=$ProjectFileDir$\mb2java\tools\tools.localShell" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/mb2java/tools/tools.createSettings" />
+    </exec>
+  </tool>
+  <tool name="generate interface profiles" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$\mb2java\build\external-tools-configurations\conf\generate-interface-profiles.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+</toolSet>
